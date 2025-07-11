@@ -1,4 +1,6 @@
-
+body{
+    background-color: rgba(245, 248, 255, 1);
+}
 .header-section{
     background-image: url("../Assets/Hero-bg.png");
     width: 100%;
@@ -86,6 +88,7 @@
 /* productive user section styles*/
 
 .productive-user-section{
+    box-sizing: border-box;
     max-width: 1140px;
     display: flex;
     flex-direction: column;
@@ -110,6 +113,7 @@
 .productive-user-section-info div{
     display: flex;
     flex-direction: column;
+    text-align: center;
     /* justify-content: space-around; */
 }
 .productive-user-section-info div h2{
@@ -121,4 +125,62 @@
     font-size: 20px;
     color: rgba(0, 0, 0, 0.5);
     margin-top: 0;
+}
+
+/* Feedback styles */
+
+.users-feedback-section{
+    margin: 137px auto;
+    max-width: 1140px;
+    
+}
+
+.feedback-headings{
+    font-size: 42px;
+    font-weight: 700;  
+    text-align: center;
+    margin-bottom: 50px;
+}
+.feedback-container{
+    display: flex;
+    
+    border: none;
+    border-radius: 14px;
+    gap: 20px;
+}
+.feedback-card{
+    padding: 20px;
+    border: 1px solid rgba(242, 237, 237, 1);
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.feedback-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.feedback-description{
+    font-size: 16px;
+    color: rgba(30, 30, 30, 1);
+}
+.avatar-bg{
+    border-radius: 50%;
+    display: flex;
+    gap: 10px;
+}
+.avatar-bg img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+.avatar-bg h3, .avatar-bg h4{
+    margin: 0;
+}
+.reviewer{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(117, 117, 117, 1);
+}
+.date-info{
+    font-size: 16px;
+    color: rgba(179, 179, 179, 1);
 }
