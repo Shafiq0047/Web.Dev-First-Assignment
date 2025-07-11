@@ -27,7 +27,14 @@ body{
     border-radius: 8px;
     background-color: rgba(78, 71, 255, 1) ;
     color: white;
+    transition: ease-in-out .4s;
 }
+.primary-btn:hover {
+    background-color: #5a52e0; 
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
 .sign-btn{
     font-size: 16px;
     font-weight: 700;
